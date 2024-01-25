@@ -12,6 +12,8 @@ This Proof of Concept (POC) project demonstrates a simple SwiftUI application wi
 
 - **Singleton ViewModel:** The project uses a shared instance of the `LoginViewModel` class following the Singleton pattern. This ensures a single instance throughout the app, providing a consistent state.
 
+- **First Open Check:** On the app's first open, it checks if it is the initial launch using UserDefaults. If it is the first open, any existing data in the app's Keychain is deleted. This is particularly useful in the case of app reinstallation.
+
 ## Getting Started
 
 1. **Clone the repository:**
