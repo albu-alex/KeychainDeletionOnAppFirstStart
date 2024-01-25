@@ -17,7 +17,7 @@ This Proof of Concept (POC) project demonstrates a simple SwiftUI application wi
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/swiftui-keychain-auth-poc.git
+   git clone https://github.com/albu-alex/KeychainDeletionOnAppFirstStart.git
    ```
  
 2. **Usage**
